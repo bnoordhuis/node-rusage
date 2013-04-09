@@ -1,4 +1,4 @@
-NODE-GETRUSAGE
+NODE-RUSAGE
 ==============
 
 getrusage(2) bindings for node.js.
@@ -17,8 +17,8 @@ USAGE
 
 Example:
 
-    var RUSAGE_SELF = require('getrusage').RUSAGE_SELF;
-    var getrusage = require('getrusage').getrusage;
+    var RUSAGE_SELF = require('rusage').RUSAGE_SELF;
+    var getrusage = require('rusage').getrusage;
     var ru = getrusage(RUSAGE_SELF);
     console.log(ru);
     // { ru_utime: { sec: 0, usec: 51160 },
@@ -44,8 +44,8 @@ Consult `man 2 getrusage` for details on the meaning of the field names.
 API
 ===
 
-getrusage.getrusage([who])  -  Call getrusage(2) and return the result.
-                               `who` defaults to RUSAGE_SELF.
+rusage.getrusage([who])  -  Call getrusage(2) and return the result.
+                            `who` defaults to RUSAGE_SELF.
 
 
 KNOWN BUGS

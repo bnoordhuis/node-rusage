@@ -15,8 +15,8 @@
 {
   'targets': [
     {
-      'target_name': 'getrusage',
-      'sources': ['getrusage.cc'],
+      'target_name': 'rusage',
+      'sources': ['rusage.cc'],
     }
   ]
 }

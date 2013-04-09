@@ -1,12 +1,12 @@
 {
-  "name": "getrusage",
-  "main": "./build/Release/getrusage",
+  "name": "rusage",
+  "main": "./build/Release/rusage",
   "version": "0.0.1",
   "description": "Retrieve getrusage(2) information.",
-  "homepage": "https://github.com/bnoordhuis/node-getrusage",
+  "homepage": "https://github.com/bnoordhuis/node-rusage",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bnoordhuis/node-getrusage.git"
+    "url": "git://github.com/bnoordhuis/node-rusage.git"
   },
   "author": {
     "name": "Ben Noordhuis",

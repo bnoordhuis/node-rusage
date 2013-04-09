@@ -102,4 +102,4 @@ v8::Handle<v8::Value> GetRUsage(const v8::Arguments& args)
 
 }  // anonymous namespace
 
-NODE_MODULE(getrusage, Initialize)
+NODE_MODULE(rusage, Initialize)
