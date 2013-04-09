@@ -1,0 +1,20 @@
+{
+  "name": "getrusage",
+  "main": "./build/Release/getrusage",
+  "version": "0.0.1",
+  "description": "Retrieve getrusage(2) information.",
+  "homepage": "https://github.com/bnoordhuis/node-getrusage",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bnoordhuis/node-getrusage.git"
+  },
+  "author": {
+    "name": "Ben Noordhuis",
+    "email": "info@bnoordhuis.nl"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "ISC",
+  "readmeFilename": "README"
+}
